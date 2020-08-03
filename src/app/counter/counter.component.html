@@ -1,0 +1,5 @@
+<div class="box-counter">
+    <h1>Counter: {{ (counter$ | async).counter }}</h1>
+    <button class="button-item" (click)="increment()">Increment</button>
+    <button class="button-item" (click)="decrement()">Decrement</button>
+</div>
